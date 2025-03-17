@@ -2,6 +2,7 @@ export const RegexLangMap = {
   "(vercel|now)\\.json": "vercel",
   "\\.prettier((rc)|(\\.(toml|yml|yaml|json|js))?)$": "prettier",
   "\\.eslint((rc|ignore)|(\\.(json|js))?)$": "eslint",
+  "\\eslint\\.config(\\.(mjs|js))": "eslint",
   "\\.(now|vercel)ignore$": "vercel",
   "prettier\\.config\\.js$": "prettier",
   "vue\\.config\\.(js|ts)$": "vueconfig",
