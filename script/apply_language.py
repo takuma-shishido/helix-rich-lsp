@@ -16,8 +16,8 @@ with open(file_path, 'rb') as file:
 
 output = {
     'language-server': {
-        'discord-rich-lsp': {
-            'command': 'discord-rich-lsp',
+        'helix-rich-lsp': {
+            'command': 'helix-rich-lsp',
             'args': ['--stdio'],
             'config': {
                 'applicationId': "1330779433946189906",
@@ -38,9 +38,9 @@ output = {
 if 'language' in data:
     for lang in data['language']:
         if 'language-servers' in lang:
-            lang['language-servers'].append("discord-rich-lsp")
+            lang['language-servers'].append("helix-rich-lsp")
         else:
-            lang['language-servers'] = ["discord-rich-lsp"]
+            lang['language-servers'] = ["helix-rich-lsp"]
             
         output['language'].append({
             'name': lang['name'],
