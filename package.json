@@ -1,6 +1,6 @@
 {
   "name": "helix-rich-lsp",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "scripts": {
     "lint": "eslint --fix",
     "build:bin": "bun build ./src/index.ts --outfile=./dist/helix-rich-lsp --compile --minify"

@@ -79,7 +79,7 @@ export class LspService {
     return {
       serverInfo: {
         name: "helix-rich-lsp",
-        version: "0.0.1",
+        version: "0.1.0",
       },
       capabilities: {
         textDocumentSync: TextDocumentSyncKind.Incremental,
