@@ -23,7 +23,7 @@ export class LspService {
 
   config: LspConfig = {
     applicationId: "1330779433946189906",
-    assetBaseUrl: "https://raw.githubusercontent.com/takuma-shishido/helix-discord-presence/main/assets/icons",
+    assetBaseUrl: "https://raw.githubusercontent.com/takuma-shishido/helix-rich-lsp/main/assets/icons",
     state: "Working on {filename}",
     details: "In {workspace}",
     largeImage: "{assetBaseUrl}/{language}.png",

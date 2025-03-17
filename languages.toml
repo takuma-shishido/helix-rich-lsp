@@ -7,7 +7,7 @@ args = [
 
 [language-server.discord-rich-lsp.config]
 applicationId = "1330779433946189906"
-baseIconsUrl = "https://raw.githubusercontent.com/takuma-shishido/helix-discord-presence/main/assets/icons/"
+baseIconsUrl = "https://raw.githubusercontent.com/takuma-shishido/helix-rich-lsp/main/assets/icons"
 state = "Working on {filename}"
 details = "In {workspace}"
 largeImage = "{base_icons_url}/{language}.png"
