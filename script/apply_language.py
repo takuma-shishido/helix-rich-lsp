@@ -24,9 +24,9 @@ output = {
                 'baseIconsUrl': "https://raw.githubusercontent.com/takuma-shishido/helix-rich-lsp/main/assets/icons",
                 'state': "Working on {filename}",
                 'details': "In {workspace}",
-                'largeImage': "{base_icons_url}/{language}.png",
-                'largeText': "{language:u}",
-                'smallImage': "{base_icons_url}/helix.png",
+                'largeImage': "{assetBaseUrl}/{language}.png",
+                'largeText': "{language}",
+                'smallImage': "{assetBaseUrl}/helix.png",
                 'smallText': "Helix",
                 'viewRepository': True,
             }
