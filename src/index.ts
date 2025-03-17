@@ -4,6 +4,7 @@ import { merge } from "ts-deepmerge"
 import { TextDocument } from "vscode-languageserver-textdocument"
 import { createConnection, MessageType, ProposedFeatures, ShowMessageNotification, TextDocuments, TextDocumentSyncKind } from "vscode-languageserver/node"
 import { DiscordIntegration } from "./mgr/discord"
+import { convertSshToHttps } from "./utils"
 
 interface LspConfig {
   applicationId: string
@@ -64,7 +65,11 @@ export class LspService {
       this.config = merge(this.config, params.initializationOptions as Partial<LspConfig>) as LspConfig
 
     if (params.workspaceFolders && params.workspaceFolders.length > 0) {
-      if (this.config.viewRepository) this.repositoryUrl = await remoteOriginUrl({ cwd: params.workspaceFolders[0].uri })
+      if (this.config.viewRepository) {
+        const url = await remoteOriginUrl({ cwd: params.workspaceFolders[0].uri })
+        this.repositoryUrl = url.startsWith("https") ? url : convertSshToHttps(url)
+        console.log(this.repositoryUrl)
+      }
       this.workspaceName = params.workspaceFolders[0].name
     }
 
