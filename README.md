@@ -1,0 +1,2 @@
+# helix-rich-lsp
+

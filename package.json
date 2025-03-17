@@ -1,0 +1,30 @@
+{
+  "name": "helix-rich-lsp",
+  "version": "0.0.1",
+  "scripts": {
+    "lint": "eslint --fix",
+    "build:bin": "bun build ./src/index.ts --outfile=./dist/helix-rich-lsp --compile --minify"
+  },
+  "module": "src/index.ts",
+  "type": "module",
+  "dependencies": {
+    "@xhayper/discord-rpc": "^1.2.0",
+    "arktype": "^2.1.9",
+    "eslint": "^9.21.0",
+    "eslint-plugin-dprint": "^0.4.0",
+    "git-remote-origin-url": "^4.0.0",
+    "ts-deepmerge": "^7.0.2",
+    "typescript": "^5.8.2",
+    "typescript-eslint": "^8.26.0",
+    "vscode-languageserver": "^9.0.1",
+    "vscode-languageserver-textdocument": "^1.0.12"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^4.5.1",
+    "bun-types": "latest",
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}

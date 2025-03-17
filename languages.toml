@@ -1,0 +1,1722 @@
+# For Discord Presence
+[language-server.discord-rich-lsp]
+command = "discord-rich-lsp"
+args = [
+    "--stdio",
+]
+
+[language-server.discord-rich-lsp.config]
+applicationId = "1330779433946189906"
+baseIconsUrl = "https://raw.githubusercontent.com/takuma-shishido/helix-discord-presence/main/assets/icons/"
+state = "Working on {filename}"
+details = "In {workspace}"
+largeImage = "{base_icons_url}/{language}.png"
+largeText = "{language:u}"
+smallImage = "{base_icons_url}/helix.png"
+smallText = "Helix"
+viewRepository = true
+
+[[language]]
+name = "rust"
+language-servers = [
+    "rust-analyzer",
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "sway"
+language-servers = [
+    "forc",
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "toml"
+language-servers = [
+    "taplo",
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "awk"
+language-servers = [
+    "awk-language-server",
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "protobuf"
+language-servers = [
+    "buf",
+    "pbkit",
+    "protols",
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "textproto"
+language-servers = [
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "elixir"
+language-servers = [
+    "elixir-ls",
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "fish"
+language-servers = [
+    "fish-lsp",
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "mint"
+language-servers = [
+    "mint",
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "mojo"
+language-servers = [
+    "mojo-lsp",
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "janet"
+language-servers = [
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "json"
+language-servers = [
+    "vscode-json-language-server",
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "jsonc"
+language-servers = [
+    "vscode-json-language-server",
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "json5"
+language-servers = [
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "c"
+language-servers = [
+    "clangd",
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "cpp"
+language-servers = [
+    "clangd",
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "crystal"
+language-servers = [
+    "crystalline",
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "c-sharp"
+language-servers = [
+    "omnisharp",
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "cel"
+language-servers = [
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "spicedb"
+language-servers = [
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "go"
+language-servers = [
+    "gopls",
+    "golangci-lint-lsp",
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "gomod"
+language-servers = [
+    "gopls",
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "gotmpl"
+language-servers = [
+    "gopls",
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "gowork"
+language-servers = [
+    "gopls",
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "javascript"
+language-servers = [
+    "typescript-language-server",
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "jsx"
+language-servers = [
+    "typescript-language-server",
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "typescript"
+language-servers = [
+    "typescript-language-server",
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "typespec"
+language-servers = [
+    "typespec",
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "tsx"
+language-servers = [
+    "typescript-language-server",
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "css"
+language-servers = [
+    "vscode-css-language-server",
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "scss"
+language-servers = [
+    "vscode-css-language-server",
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "html"
+language-servers = [
+    "vscode-html-language-server",
+    "superhtml",
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "python"
+language-servers = [
+    "ruff",
+    "jedi",
+    "pylsp",
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "nickel"
+language-servers = [
+    "nls",
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "nix"
+language-servers = [
+    "nil",
+    "nixd",
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "ruby"
+language-servers = [
+    "ruby-lsp",
+    "solargraph",
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "bash"
+language-servers = [
+    "bash-language-server",
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "php"
+language-servers = [
+    "intelephense",
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "php-only"
+language-servers = [
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "blade"
+language-servers = [
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "twig"
+language-servers = [
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "latex"
+language-servers = [
+    "texlab",
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "bibtex"
+language-servers = [
+    "texlab",
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "lean"
+language-servers = [
+    "lean",
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "lpf"
+language-servers = [
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "julia"
+language-servers = [
+    "julia",
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "java"
+language-servers = [
+    "jdtls",
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "smali"
+language-servers = [
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "ledger"
+language-servers = [
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "beancount"
+language-servers = [
+    "beancount-language-server",
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "ocaml"
+language-servers = [
+    "ocamllsp",
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "ocaml-interface"
+language-servers = [
+    "ocamllsp",
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "dune"
+language-servers = [
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "lua"
+language-servers = [
+    "lua-language-server",
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "teal"
+language-servers = [
+    "teal-language-server",
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "svelte"
+language-servers = [
+    "svelteserver",
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "vue"
+language-servers = [
+    "vuels",
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "yaml"
+language-servers = [
+    "yaml-language-server",
+    "ansible-language-server",
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "nestedtext"
+language-servers = [
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "haskell"
+language-servers = [
+    "haskell-language-server",
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "haskell-persistent"
+language-servers = [
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "purescript"
+language-servers = [
+    "purescript-language-server",
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "zig"
+language-servers = [
+    "zls",
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "prolog"
+language-servers = [
+    "swipl",
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "tsq"
+language-servers = [
+    "ts_query_ls",
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "cmake"
+language-servers = [
+    "cmake-language-server",
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "make"
+language-servers = [
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "glsl"
+language-servers = [
+    "glsl_analyzer",
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "perl"
+language-servers = [
+    "perlnavigator",
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "pod"
+language-servers = [
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "racket"
+language-servers = [
+    "racket",
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "common-lisp"
+language-servers = [
+    "cl-lsp",
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "comment"
+language-servers = [
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "wgsl"
+language-servers = [
+    "wgsl-analyzer",
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "llvm"
+language-servers = [
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "llvm-mir"
+language-servers = [
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "llvm-mir-yaml"
+language-servers = [
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "tablegen"
+language-servers = [
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "mail"
+language-servers = [
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "markdown"
+language-servers = [
+    "marksman",
+    "markdown-oxide",
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "markdown.inline"
+language-servers = [
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "djot"
+language-servers = [
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "dart"
+language-servers = [
+    "dart",
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "scala"
+language-servers = [
+    "metals",
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "dockerfile"
+language-servers = [
+    "docker-langserver",
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "docker-compose"
+language-servers = [
+    "docker-compose-langserver",
+    "yaml-language-server",
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "git-commit"
+language-servers = [
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "diff"
+language-servers = [
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "git-rebase"
+language-servers = [
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "regex"
+language-servers = [
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "git-config"
+language-servers = [
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "git-attributes"
+language-servers = [
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "git-ignore"
+language-servers = [
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "graphql"
+language-servers = [
+    "graphql-language-service",
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "elm"
+language-servers = [
+    "elm-language-server",
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "iex"
+language-servers = [
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "rescript"
+language-servers = [
+    "rescript-language-server",
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "erlang"
+language-servers = [
+    "erlang-ls",
+    "elp",
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "kotlin"
+language-servers = [
+    "kotlin-language-server",
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "hcl"
+language-servers = [
+    "terraform-ls",
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "tfvars"
+language-servers = [
+    "terraform-ls",
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "org"
+language-servers = [
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "solidity"
+language-servers = [
+    "solc",
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "gleam"
+language-servers = [
+    "gleam",
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "ron"
+language-servers = [
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "robot"
+language-servers = [
+    "robotframework_ls",
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "r"
+language-servers = [
+    "r",
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "rmarkdown"
+language-servers = [
+    "r",
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "swift"
+language-servers = [
+    "sourcekit-lsp",
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "erb"
+language-servers = [
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "ejs"
+language-servers = [
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "eex"
+language-servers = [
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "heex"
+language-servers = [
+    "elixir-ls",
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "sql"
+language-servers = [
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "gdscript"
+language-servers = [
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "godot-resource"
+language-servers = [
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "nu"
+language-servers = [
+    "nu-lsp",
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "vala"
+language-servers = [
+    "vala-language-server",
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "hare"
+language-servers = [
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "devicetree"
+language-servers = [
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "cairo"
+language-servers = [
+    "cairo-language-server",
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "cpon"
+language-servers = [
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "odin"
+language-servers = [
+    "ols",
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "meson"
+language-servers = [
+    "mesonlsp",
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "sshclientconfig"
+language-servers = [
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "scheme"
+language-servers = [
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "v"
+language-servers = [
+    "vlang-language-server",
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "verilog"
+language-servers = [
+    "svlangserver",
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "edoc"
+language-servers = [
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "jsdoc"
+language-servers = [
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "openscad"
+language-servers = [
+    "openscad-lsp",
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "prisma"
+language-servers = [
+    "prisma-language-server",
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "clojure"
+language-servers = [
+    "clojure-lsp",
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "starlark"
+language-servers = [
+    "starpls",
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "elvish"
+language-servers = [
+    "elvish",
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "idris"
+language-servers = [
+    "idris2-lsp",
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "fortran"
+language-servers = [
+    "fortls",
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "ungrammar"
+language-servers = [
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "dot"
+language-servers = [
+    "dot-language-server",
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "cue"
+language-servers = [
+    "cuelsp",
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "slint"
+language-servers = [
+    "slint-lsp",
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "task"
+language-servers = [
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "xit"
+language-servers = [
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "esdl"
+language-servers = [
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "pascal"
+language-servers = [
+    "pasls",
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "sml"
+language-servers = [
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "jsonnet"
+language-servers = [
+    "jsonnet-language-server",
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "ada"
+language-servers = [
+    "ada-language-server",
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "astro"
+language-servers = [
+    "astro-ls",
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "bass"
+language-servers = [
+    "bass",
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "wat"
+language-servers = [
+    "wasm-language-tools",
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "wast"
+language-servers = [
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "d"
+language-servers = [
+    "serve-d",
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "vhs"
+language-servers = [
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "kdl"
+language-servers = [
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "xml"
+language-servers = [
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "dtd"
+language-servers = [
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "wit"
+language-servers = [
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "env"
+language-servers = [
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "ini"
+language-servers = [
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "inko"
+language-servers = [
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "bicep"
+language-servers = [
+    "bicep-langserver",
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "qml"
+language-servers = [
+    "qmlls",
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "mermaid"
+language-servers = [
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "matlab"
+language-servers = [
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "ponylang"
+language-servers = [
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "dhall"
+language-servers = [
+    "dhall-lsp-server",
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "sage"
+language-servers = [
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "msbuild"
+language-servers = [
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "pem"
+language-servers = [
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "passwd"
+language-servers = [
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "hosts"
+language-servers = [
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "uxntal"
+language-servers = [
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "yuck"
+language-servers = [
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "prql"
+language-servers = [
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "po"
+language-servers = [
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "nasm"
+language-servers = [
+    "asm-lsp",
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "gas"
+language-servers = [
+    "asm-lsp",
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "rst"
+language-servers = [
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "capnp"
+language-servers = [
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "smithy"
+language-servers = [
+    "cs",
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "vhdl"
+language-servers = [
+    "vhdl_ls",
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "rego"
+language-servers = [
+    "regols",
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "nim"
+language-servers = [
+    "nimlangserver",
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "cabal"
+language-servers = [
+    "haskell-language-server",
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "hurl"
+language-servers = [
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "markdoc"
+language-servers = [
+    "markdoc-ls",
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "opencl"
+language-servers = [
+    "clangd",
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "just"
+language-servers = [
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "gn"
+language-servers = [
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "blueprint"
+language-servers = [
+    "blueprint-compiler",
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "forth"
+language-servers = [
+    "forth-lsp",
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "fsharp"
+language-servers = [
+    "fsharp-ls",
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "t32"
+language-servers = [
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "webc"
+language-servers = [
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "typst"
+language-servers = [
+    "tinymist",
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "nunjucks"
+language-servers = [
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "jinja"
+language-servers = [
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "jjdescription"
+language-servers = [
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "jq"
+language-servers = [
+    "jq-lsp",
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "wren"
+language-servers = [
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "unison"
+language-servers = [
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "todotxt"
+language-servers = [
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "strace"
+language-servers = [
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "gemini"
+language-servers = [
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "agda"
+language-servers = [
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "templ"
+language-servers = [
+    "templ",
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "dbml"
+language-servers = [
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "bitbake"
+language-servers = [
+    "bitbake-language-server",
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "log"
+language-servers = [
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "hoon"
+language-servers = [
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "hocon"
+language-servers = [
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "koka"
+language-servers = [
+    "koka",
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "tact"
+language-servers = [
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "pkl"
+language-servers = [
+    "pkl-lsp",
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "groovy"
+language-servers = [
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "fidl"
+language-servers = [
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "powershell"
+language-servers = [
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "ld"
+language-servers = [
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "hyprlang"
+language-servers = [
+    "hyprls",
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "tcl"
+language-servers = [
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "supercollider"
+language-servers = [
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "pkgbuild"
+language-servers = [
+    "termux-language-server",
+    { except-features = [
+    "diagnostics",
+], name = "bash-language-server" },
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "helm"
+language-servers = [
+    "helm_ls",
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "glimmer"
+language-servers = [
+    "ember-language-server",
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "ohm"
+language-servers = [
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "earthfile"
+language-servers = [
+    "earthlyls",
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "adl"
+language-servers = [
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "ldif"
+language-servers = [
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "xtc"
+language-servers = [
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "move"
+language-servers = [
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "pest"
+language-servers = [
+    "pest-language-server",
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "elisp"
+language-servers = [
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "gjs"
+language-servers = [
+    { except-features = [
+    "format",
+    "diagnostics",
+], name = "typescript-language-server" },
+    "vscode-eslint-language-server",
+    "ember-language-server",
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "gts"
+language-servers = [
+    { except-features = [
+    "format",
+    "diagnostics",
+], name = "typescript-language-server" },
+    "vscode-eslint-language-server",
+    "ember-language-server",
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "gherkin"
+language-servers = [
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "thrift"
+language-servers = [
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "circom"
+language-servers = [
+    "circom-lsp",
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "snakemake"
+language-servers = [
+    "pylsp",
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "cylc"
+language-servers = [
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "quint"
+language-servers = [
+    "quint-language-server",
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "spade"
+language-servers = [
+    "spade-language-server",
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "amber"
+language-servers = [
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "koto"
+language-servers = [
+    "koto-ls",
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "gpr"
+language-servers = [
+    "ada-gpr-language-server",
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "vento"
+language-servers = [
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "nginx"
+language-servers = [
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "codeql"
+language-servers = [
+    "codeql",
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "gren"
+language-servers = [
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "ghostty"
+language-servers = [
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "tera"
+language-servers = [
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "fga"
+language-servers = [
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "csv"
+language-servers = [
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "yara"
+language-servers = [
+    "yls",
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "ink"
+language-servers = [
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "sourcepawn"
+language-servers = [
+    "sourcepawn-studio",
+    "discord-rich-lsp",
+]
+
+[[language]]
+name = "tlaplus"
+language-servers = [
+    "discord-rich-lsp",
+]
