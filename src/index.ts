@@ -31,7 +31,7 @@ export class LspService {
     largeText: "{language}",
     smallImage: "{assetBaseUrl}/helix.png",
     smallText: "Helix",
-    viewRepository: false,
+    viewRepository: true,
   }
 
   // integration
@@ -50,6 +50,7 @@ export class LspService {
     this.connection.onInitialized(this.onInitialized.bind(this))
 
     this.documents.onDidOpen(this.onDocumentEvent.bind(this))
+    this.documents.onDidSave(this.onDocumentEvent.bind(this))
     this.documents.onDidChangeContent(this.onDocumentEvent.bind(this))
 
     this.connection.listen()

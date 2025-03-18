@@ -34,7 +34,7 @@ export class DiscordIntegration {
     const activity: SetActivity = {
       startTimestamp: this.startTimestamp,
       state: config.state.replace("{filename}", filename),
-      details: config.details.replace("{workspace}", this.lsp.workspaceName!),
+      details: this.lsp.workspaceName ? config.details.replace("{workspace}", this.lsp.workspaceName) : "no workspace",
       largeImageKey: config.largeImage.replace("{assetBaseUrl}", config.assetBaseUrl).replace("{language}", language),
       largeImageText: config.largeText.replace("{language}", language),
       smallImageKey: config.smallImage.replace("{assetBaseUrl}", config.assetBaseUrl),
