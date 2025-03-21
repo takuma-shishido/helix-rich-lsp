@@ -1720,3 +1720,9 @@ name = "tlaplus"
 language-servers = [
     "helix-rich-lsp",
 ]
+
+[[language]]
+name = "werk"
+language-servers = [
+    "helix-rich-lsp",
+]
