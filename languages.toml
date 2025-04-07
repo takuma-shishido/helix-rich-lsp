@@ -520,6 +520,12 @@ language-servers = [
 ]
 
 [[language]]
+name = "wesl"
+language-servers = [
+    "helix-rich-lsp",
+]
+
+[[language]]
 name = "wgsl"
 language-servers = [
     "wgsl-analyzer",
@@ -1271,6 +1277,7 @@ language-servers = [
 [[language]]
 name = "just"
 language-servers = [
+    "just-lsp",
     "helix-rich-lsp",
 ]
 
@@ -1723,6 +1730,12 @@ language-servers = [
 
 [[language]]
 name = "werk"
+language-servers = [
+    "helix-rich-lsp",
+]
+
+[[language]]
+name = "debian"
 language-servers = [
     "helix-rich-lsp",
 ]
