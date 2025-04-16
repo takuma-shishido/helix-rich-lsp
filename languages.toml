@@ -67,6 +67,13 @@ language-servers = [
 ]
 
 [[language]]
+name = "fennel"
+language-servers = [
+    "fennel-ls",
+    "helix-rich-lsp",
+]
+
+[[language]]
 name = "fish"
 language-servers = [
     "fish-lsp",
