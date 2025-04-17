@@ -737,6 +737,12 @@ language-servers = [
 ]
 
 [[language]]
+name = "quarto"
+language-servers = [
+    "helix-rich-lsp",
+]
+
+[[language]]
 name = "ron"
 language-servers = [
     "helix-rich-lsp",
