@@ -980,6 +980,13 @@ language-servers = [
 ]
 
 [[language]]
+name = "slang"
+language-servers = [
+    "slangd",
+    "helix-rich-lsp",
+]
+
+[[language]]
 name = "slint"
 language-servers = [
     "slint-lsp",
@@ -1749,6 +1756,18 @@ language-servers = [
 
 [[language]]
 name = "debian"
+language-servers = [
+    "helix-rich-lsp",
+]
+
+[[language]]
+name = "pug"
+language-servers = [
+    "helix-rich-lsp",
+]
+
+[[language]]
+name = "dunstrc"
 language-servers = [
     "helix-rich-lsp",
 ]
