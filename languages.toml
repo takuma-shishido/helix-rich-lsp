@@ -578,6 +578,12 @@ language-servers = [
 ]
 
 [[language]]
+name = "markdown-rustdoc"
+language-servers = [
+    "helix-rich-lsp",
+]
+
+[[language]]
 name = "markdown.inline"
 language-servers = [
     "helix-rich-lsp",
