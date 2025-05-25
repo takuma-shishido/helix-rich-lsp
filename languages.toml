@@ -1777,3 +1777,9 @@ name = "dunstrc"
 language-servers = [
     "helix-rich-lsp",
 ]
+
+[[language]]
+name = "rust-format-args"
+language-servers = [
+    "helix-rich-lsp",
+]
