@@ -1784,3 +1784,10 @@ name = "rust-format-args"
 language-servers = [
     "helix-rich-lsp",
 ]
+
+[[language]]
+name = "clarity"
+language-servers = [
+    "clarinet",
+    "helix-rich-lsp",
+]
