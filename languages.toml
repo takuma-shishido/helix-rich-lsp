@@ -1797,3 +1797,10 @@ name = "alloy"
 language-servers = [
     "helix-rich-lsp",
 ]
+
+[[language]]
+name = "luau"
+language-servers = [
+    "luau",
+    "helix-rich-lsp",
+]
