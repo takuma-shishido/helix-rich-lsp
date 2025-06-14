@@ -1665,6 +1665,7 @@ language-servers = [
 [[language]]
 name = "amber"
 language-servers = [
+    "amber-lsp",
     "helix-rich-lsp",
 ]
 
