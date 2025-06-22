@@ -139,6 +139,7 @@ language-servers = [
 name = "crystal"
 language-servers = [
     "crystalline",
+    "ameba-ls",
     "helix-rich-lsp",
 ]
 
