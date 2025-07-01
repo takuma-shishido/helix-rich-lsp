@@ -1808,3 +1808,9 @@ language-servers = [
     "luau",
     "helix-rich-lsp",
 ]
+
+[[language]]
+name = "caddyfile"
+language-servers = [
+    "helix-rich-lsp",
+]
