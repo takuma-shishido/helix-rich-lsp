@@ -1814,3 +1814,9 @@ name = "caddyfile"
 language-servers = [
     "helix-rich-lsp",
 ]
+
+[[language]]
+name = "properties"
+language-servers = [
+    "helix-rich-lsp",
+]
