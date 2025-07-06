@@ -635,6 +635,12 @@ language-servers = [
 ]
 
 [[language]]
+name = "git-notes"
+language-servers = [
+    "helix-rich-lsp",
+]
+
+[[language]]
 name = "diff"
 language-servers = [
     "helix-rich-lsp",
