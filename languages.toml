@@ -858,6 +858,7 @@ language-servers = [
 [[language]]
 name = "devicetree"
 language-servers = [
+    "dts-lsp",
     "helix-rich-lsp",
 ]
 
@@ -1121,6 +1122,13 @@ language-servers = [
 [[language]]
 name = "env"
 language-servers = [
+    "helix-rich-lsp",
+]
+
+[[language]]
+name = "systemd"
+language-servers = [
+    "systemd-lsp",
     "helix-rich-lsp",
 ]
 
