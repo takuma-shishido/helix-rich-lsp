@@ -116,6 +116,13 @@ language-servers = [
 ]
 
 [[language]]
+name = "json-ld"
+language-servers = [
+    "vscode-json-language-server",
+    "helix-rich-lsp",
+]
+
+[[language]]
 name = "json5"
 language-servers = [
     "helix-rich-lsp",
