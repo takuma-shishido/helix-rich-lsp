@@ -256,6 +256,15 @@ language-servers = [
 ]
 
 [[language]]
+name = "htmldjango"
+language-servers = [
+    "djlsp",
+    "vscode-html-language-server",
+    "superhtml",
+    "helix-rich-lsp",
+]
+
+[[language]]
 name = "python"
 language-servers = [
     "ty",
