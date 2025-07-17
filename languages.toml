@@ -1400,7 +1400,27 @@ language-servers = [
 ]
 
 [[language]]
+name = "jjconfig"
+language-servers = [
+    "taplo",
+    "tombi",
+    "helix-rich-lsp",
+]
+
+[[language]]
 name = "jjdescription"
+language-servers = [
+    "helix-rich-lsp",
+]
+
+[[language]]
+name = "jjrevset"
+language-servers = [
+    "helix-rich-lsp",
+]
+
+[[language]]
+name = "jjtemplate"
 language-servers = [
     "helix-rich-lsp",
 ]
