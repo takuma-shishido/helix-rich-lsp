@@ -199,6 +199,12 @@ language-servers = [
 ]
 
 [[language]]
+name = "go-format-string"
+language-servers = [
+    "helix-rich-lsp",
+]
+
+[[language]]
 name = "javascript"
 language-servers = [
     "typescript-language-server",
@@ -413,6 +419,12 @@ language-servers = [
 name = "lua"
 language-servers = [
     "lua-language-server",
+    "helix-rich-lsp",
+]
+
+[[language]]
+name = "luap"
+language-servers = [
     "helix-rich-lsp",
 ]
 
@@ -1806,6 +1818,12 @@ language-servers = [
 name = "sourcepawn"
 language-servers = [
     "sourcepawn-studio",
+    "helix-rich-lsp",
+]
+
+[[language]]
+name = "vim"
+language-servers = [
     "helix-rich-lsp",
 ]
 
