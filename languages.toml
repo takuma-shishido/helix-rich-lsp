@@ -1305,6 +1305,12 @@ language-servers = [
 ]
 
 [[language]]
+name = "hdl"
+language-servers = [
+    "helix-rich-lsp",
+]
+
+[[language]]
 name = "vhdl"
 language-servers = [
     "vhdl_ls",
@@ -1897,6 +1903,12 @@ language-servers = [
 
 [[language]]
 name = "properties"
+language-servers = [
+    "helix-rich-lsp",
+]
+
+[[language]]
+name = "robots.txt"
 language-servers = [
     "helix-rich-lsp",
 ]
