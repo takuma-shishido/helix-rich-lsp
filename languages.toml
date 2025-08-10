@@ -1912,3 +1912,9 @@ name = "robots.txt"
 language-servers = [
     "helix-rich-lsp",
 ]
+
+[[language]]
+name = "pip-requirements"
+language-servers = [
+    "helix-rich-lsp",
+]
