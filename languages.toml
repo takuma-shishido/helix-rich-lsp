@@ -950,6 +950,13 @@ language-servers = [
 ]
 
 [[language]]
+name = "systemverilog"
+language-servers = [
+    "verible-verilog-ls",
+    "helix-rich-lsp",
+]
+
+[[language]]
 name = "edoc"
 language-servers = [
     "helix-rich-lsp",
@@ -1915,6 +1922,18 @@ language-servers = [
 
 [[language]]
 name = "pip-requirements"
+language-servers = [
+    "helix-rich-lsp",
+]
+
+[[language]]
+name = "kconfig"
+language-servers = [
+    "helix-rich-lsp",
+]
+
+[[language]]
+name = "doxyfile"
 language-servers = [
     "helix-rich-lsp",
 ]
