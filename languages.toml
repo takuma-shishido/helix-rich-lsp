@@ -1937,3 +1937,11 @@ name = "doxyfile"
 language-servers = [
     "helix-rich-lsp",
 ]
+
+[[language]]
+name = "cross-config"
+language-servers = [
+    "taplo",
+    "tombi",
+    "helix-rich-lsp",
+]
