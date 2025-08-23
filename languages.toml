@@ -82,6 +82,12 @@ language-servers = [
 ]
 
 [[language]]
+name = "flatbuffers"
+language-servers = [
+    "helix-rich-lsp",
+]
+
+[[language]]
 name = "mint"
 language-servers = [
     "mint",
