@@ -1951,3 +1951,11 @@ language-servers = [
     "tombi",
     "helix-rich-lsp",
 ]
+
+[[language]]
+name = "git-cliff-config"
+language-servers = [
+    "taplo",
+    "tombi",
+    "helix-rich-lsp",
+]
