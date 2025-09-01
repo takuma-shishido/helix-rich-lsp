@@ -1959,3 +1959,15 @@ language-servers = [
     "tombi",
     "helix-rich-lsp",
 ]
+
+[[language]]
+name = "cython"
+language-servers = [
+    "helix-rich-lsp",
+]
+
+[[language]]
+name = "shellcheckrc"
+language-servers = [
+    "helix-rich-lsp",
+]
