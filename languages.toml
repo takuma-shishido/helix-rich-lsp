@@ -1971,3 +1971,9 @@ name = "shellcheckrc"
 language-servers = [
     "helix-rich-lsp",
 ]
+
+[[language]]
+name = "strictdoc"
+language-servers = [
+    "helix-rich-lsp",
+]
