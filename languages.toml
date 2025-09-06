@@ -64,6 +64,7 @@ language-servers = [
 name = "elixir"
 language-servers = [
     "elixir-ls",
+    "expert",
     "helix-rich-lsp",
 ]
 
@@ -651,6 +652,7 @@ language-servers = [
 name = "dockerfile"
 language-servers = [
     "docker-langserver",
+    "docker-language-server",
     "helix-rich-lsp",
 ]
 
@@ -659,6 +661,7 @@ name = "docker-compose"
 language-servers = [
     "docker-compose-langserver",
     "yaml-language-server",
+    "docker-language-server",
     "helix-rich-lsp",
 ]
 
@@ -854,6 +857,7 @@ language-servers = [
 name = "heex"
 language-servers = [
     "elixir-ls",
+    "expert",
     "helix-rich-lsp",
 ]
 
@@ -1975,5 +1979,12 @@ language-servers = [
 [[language]]
 name = "strictdoc"
 language-servers = [
+    "helix-rich-lsp",
+]
+
+[[language]]
+name = "docker-bake"
+language-servers = [
+    "docker-language-server",
     "helix-rich-lsp",
 ]
