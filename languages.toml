@@ -1997,3 +1997,10 @@ language-servers = [
     "gitlab-ci-ls",
     "helix-rich-lsp",
 ]
+
+[[language]]
+name = "wikitext"
+language-servers = [
+    "wikitext-lsp",
+    "helix-rich-lsp",
+]
