@@ -2004,3 +2004,9 @@ language-servers = [
     "wikitext-lsp",
     "helix-rich-lsp",
 ]
+
+[[language]]
+name = "slisp"
+language-servers = [
+    "helix-rich-lsp",
+]
