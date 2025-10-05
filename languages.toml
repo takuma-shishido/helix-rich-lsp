@@ -61,6 +61,13 @@ language-servers = [
 ]
 
 [[language]]
+name = "eiffel"
+language-servers = [
+    "eiffel-language-server",
+    "helix-rich-lsp",
+]
+
+[[language]]
 name = "elixir"
 language-servers = [
     "elixir-ls",
@@ -1468,6 +1475,14 @@ language-servers = [
 ]
 
 [[language]]
+name = "miseconfig"
+language-servers = [
+    "taplo",
+    "tombi",
+    "helix-rich-lsp",
+]
+
+[[language]]
 name = "jq"
 language-servers = [
     "jq-lsp",
@@ -2007,6 +2022,12 @@ language-servers = [
 
 [[language]]
 name = "slisp"
+language-servers = [
+    "helix-rich-lsp",
+]
+
+[[language]]
+name = "nearley"
 language-servers = [
     "helix-rich-lsp",
 ]
