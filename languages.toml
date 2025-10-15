@@ -2031,3 +2031,10 @@ name = "nearley"
 language-servers = [
     "helix-rich-lsp",
 ]
+
+[[language]]
+name = "kcl"
+language-servers = [
+    "kcl-lsp",
+    "helix-rich-lsp",
+]
