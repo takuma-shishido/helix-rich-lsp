@@ -2038,3 +2038,9 @@ language-servers = [
     "kcl-lsp",
     "helix-rich-lsp",
 ]
+
+[[language]]
+name = "bovex"
+language-servers = [
+    "helix-rich-lsp",
+]
