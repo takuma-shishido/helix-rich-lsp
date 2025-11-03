@@ -675,6 +675,7 @@ language-servers = [
 [[language]]
 name = "git-commit"
 language-servers = [
+    "commit-lsp",
     "helix-rich-lsp",
 ]
 
