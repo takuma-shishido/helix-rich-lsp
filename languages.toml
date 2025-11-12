@@ -318,6 +318,15 @@ language-servers = [
 ]
 
 [[language]]
+name = "rshtml"
+language-servers = [
+    "rshtml-analyzer",
+    "vscode-html-language-server",
+    "superhtml",
+    "helix-rich-lsp",
+]
+
+[[language]]
 name = "bash"
 language-servers = [
     "bash-language-server",
@@ -487,6 +496,13 @@ language-servers = [
 [[language]]
 name = "haskell-persistent"
 language-servers = [
+    "helix-rich-lsp",
+]
+
+[[language]]
+name = "haskell-literate"
+language-servers = [
+    "haskell-language-server",
     "helix-rich-lsp",
 ]
 
@@ -813,6 +829,7 @@ language-servers = [
 [[language]]
 name = "ron"
 language-servers = [
+    "ron-lsp",
     "helix-rich-lsp",
 ]
 
@@ -2044,5 +2061,12 @@ language-servers = [
 [[language]]
 name = "bovex"
 language-servers = [
+    "helix-rich-lsp",
+]
+
+[[language]]
+name = "haxe"
+language-servers = [
+    "haxe-language-server",
     "helix-rich-lsp",
 ]
