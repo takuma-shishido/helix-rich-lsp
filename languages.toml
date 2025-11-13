@@ -2070,3 +2070,15 @@ language-servers = [
     "haxe-language-server",
     "helix-rich-lsp",
 ]
+
+[[language]]
+name = "basic"
+language-servers = [
+    "helix-rich-lsp",
+]
+
+[[language]]
+name = "freebasic"
+language-servers = [
+    "helix-rich-lsp",
+]
