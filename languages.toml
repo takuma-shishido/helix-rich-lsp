@@ -1627,6 +1627,13 @@ language-servers = [
 ]
 
 [[language]]
+name = "hy"
+language-servers = [
+    "hyuga",
+    "helix-rich-lsp",
+]
+
+[[language]]
 name = "hyprlang"
 language-servers = [
     "hyprls",
