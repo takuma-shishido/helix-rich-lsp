@@ -2101,3 +2101,10 @@ name = "scfg"
 language-servers = [
     "helix-rich-lsp",
 ]
+
+[[language]]
+name = "ripple"
+language-servers = [
+    "ripple-lsp",
+    "helix-rich-lsp",
+]
