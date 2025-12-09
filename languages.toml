@@ -2108,3 +2108,10 @@ language-servers = [
     "ripple-lsp",
     "helix-rich-lsp",
 ]
+
+[[language]]
+name = "woodpecker-ci"
+language-servers = [
+    "yaml-language-server",
+    "helix-rich-lsp",
+]
