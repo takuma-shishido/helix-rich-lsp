@@ -2115,3 +2115,9 @@ language-servers = [
     "yaml-language-server",
     "helix-rich-lsp",
 ]
+
+[[language]]
+name = "chuck"
+language-servers = [
+    "helix-rich-lsp",
+]
