@@ -168,6 +168,7 @@ language-servers = [
 name = "c-sharp"
 language-servers = [
     "omnisharp",
+    "csharp-ls",
     "helix-rich-lsp",
 ]
 
@@ -922,6 +923,14 @@ language-servers = [
 [[language]]
 name = "hare"
 language-servers = [
+    { except-features = [
+    "code-action",
+    "completion",
+    "format",
+    "inlay-hints",
+    "rename-symbol",
+    "workspace-symbols",
+], name = "hare-lsp" },
     "helix-rich-lsp",
 ]
 
