@@ -553,6 +553,7 @@ language-servers = [
 name = "glsl"
 language-servers = [
     "glsl_analyzer",
+    "glsld",
     "helix-rich-lsp",
 ]
 
@@ -700,6 +701,14 @@ language-servers = [
 [[language]]
 name = "git-notes"
 language-servers = [
+    "helix-rich-lsp",
+]
+
+[[language]]
+name = "github-action"
+language-servers = [
+    "actions-language-server",
+    "yaml-language-server",
     "helix-rich-lsp",
 ]
 
