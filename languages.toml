@@ -453,6 +453,12 @@ language-servers = [
 ]
 
 [[language]]
+name = "lua-format-string"
+language-servers = [
+    "helix-rich-lsp",
+]
+
+[[language]]
 name = "teal"
 language-servers = [
     "teal-language-server",
@@ -919,6 +925,7 @@ language-servers = [
 name = "nu"
 language-servers = [
     "nu-lsp",
+    "nu-lint",
     "helix-rich-lsp",
 ]
 
@@ -999,13 +1006,14 @@ language-servers = [
 [[language]]
 name = "verilog"
 language-servers = [
-    "svlangserver",
+    "verible-verilog-ls",
     "helix-rich-lsp",
 ]
 
 [[language]]
 name = "systemverilog"
 language-servers = [
+    "svlangserver",
     "verible-verilog-ls",
     "helix-rich-lsp",
 ]
@@ -2136,6 +2144,18 @@ language-servers = [
 
 [[language]]
 name = "chuck"
+language-servers = [
+    "helix-rich-lsp",
+]
+
+[[language]]
+name = "qmv"
+language-servers = [
+    "helix-rich-lsp",
+]
+
+[[language]]
+name = "klog"
 language-servers = [
     "helix-rich-lsp",
 ]
