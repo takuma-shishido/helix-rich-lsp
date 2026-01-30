@@ -173,6 +173,13 @@ language-servers = [
 ]
 
 [[language]]
+name = "c3"
+language-servers = [
+    "c3-lsp",
+    "helix-rich-lsp",
+]
+
+[[language]]
 name = "cel"
 language-servers = [
     "helix-rich-lsp",
@@ -536,6 +543,12 @@ language-servers = [
 ]
 
 [[language]]
+name = "picat"
+language-servers = [
+    "helix-rich-lsp",
+]
+
+[[language]]
 name = "prolog"
 language-servers = [
     "swipl",
@@ -568,6 +581,12 @@ name = "glsl"
 language-servers = [
     "glsl_analyzer",
     "glsld",
+    "helix-rich-lsp",
+]
+
+[[language]]
+name = "penrose"
+language-servers = [
     "helix-rich-lsp",
 ]
 
@@ -860,6 +879,7 @@ language-servers = [
 [[language]]
 name = "robot"
 language-servers = [
+    "robotcode",
     "robotframework_ls",
     "helix-rich-lsp",
 ]
