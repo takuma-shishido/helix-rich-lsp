@@ -2187,3 +2187,16 @@ name = "klog"
 language-servers = [
     "helix-rich-lsp",
 ]
+
+[[language]]
+name = "tilt"
+language-servers = [
+    "tilt",
+    "helix-rich-lsp",
+]
+
+[[language]]
+name = "gnuplot"
+language-servers = [
+    "helix-rich-lsp",
+]
