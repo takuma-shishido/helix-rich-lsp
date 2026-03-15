@@ -599,6 +599,12 @@ language-servers = [
 ]
 
 [[language]]
+name = "embedded-perl"
+language-servers = [
+    "helix-rich-lsp",
+]
+
+[[language]]
 name = "pod"
 language-servers = [
     "helix-rich-lsp",
@@ -743,6 +749,7 @@ name = "github-action"
 language-servers = [
     "actions-language-server",
     "yaml-language-server",
+    "zizmor",
     "helix-rich-lsp",
 ]
 
@@ -1305,6 +1312,7 @@ language-servers = [
 [[language]]
 name = "ponylang"
 language-servers = [
+    "pony-lsp",
     "helix-rich-lsp",
 ]
 
@@ -2190,6 +2198,13 @@ language-servers = [
 ]
 
 [[language]]
+name = "styx"
+language-servers = [
+    "styx",
+    "helix-rich-lsp",
+]
+
+[[language]]
 name = "tilt"
 language-servers = [
     "tilt",
@@ -2198,6 +2213,25 @@ language-servers = [
 
 [[language]]
 name = "gnuplot"
+language-servers = [
+    "helix-rich-lsp",
+]
+
+[[language]]
+name = "drools"
+language-servers = [
+    "drools-lsp",
+    "helix-rich-lsp",
+]
+
+[[language]]
+name = "proverif"
+language-servers = [
+    "helix-rich-lsp",
+]
+
+[[language]]
+name = "ptx"
 language-servers = [
     "helix-rich-lsp",
 ]
