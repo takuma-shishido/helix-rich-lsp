@@ -2235,3 +2235,9 @@ name = "ptx"
 language-servers = [
     "helix-rich-lsp",
 ]
+
+[[language]]
+name = "tql"
+language-servers = [
+    "helix-rich-lsp",
+]
