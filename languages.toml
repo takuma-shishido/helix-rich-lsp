@@ -2218,6 +2218,13 @@ language-servers = [
 ]
 
 [[language]]
+name = "ebnf"
+language-servers = [
+    "ebnfer",
+    "helix-rich-lsp",
+]
+
+[[language]]
 name = "drools"
 language-servers = [
     "drools-lsp",
